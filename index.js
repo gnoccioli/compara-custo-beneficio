@@ -17,12 +17,13 @@ for(;;){
 	  if ((isNaN(valor_e+valor_g)) || (valor_e <= 0) || (valor_g <= 0)) break;
 
   //cálculo 
-	  if ( (valor_e / valor_g) == 0.7 )
+	  if ((valor_e / valor_g) == 0.7 )
 		{alert('\n\nTanto faz Etanol ou Gasolina. O custo por Km rodado será o mesmo.')}
 	  else {
-		vantagem = (valor_e/valor_g > 0.7 ? 'gasolina':'etanol')
+		vantagem = (valor_e/valor_g > 0.7 ? 'Gasolina':'Etanol')
 		alert('\n\nÉ mais vantajoso abastecer com ' +  vantagem)
 	  }
-
+  
+  //fechamento do loop de repetição
   repete = prompt('\n\nDeseja fazer um novo cálculo ? (digite sim para repetir)')
 if (repete!='sim') break;}
