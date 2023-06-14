@@ -1,6 +1,3 @@
-//Aluno: Glauber Noccioli de Souza
-//Curso: Defesa Cibernética
-
 //início do loop para repetir a operação caso o usuário solicite
 for(;;){
   console.clear();
